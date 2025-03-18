@@ -1,32 +1,45 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+---
 
-# Precompiled Headers
-*.gch
-*.pch
+### Archivo `.gitignore`
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+El archivo `.gitignore` evita que archivos innecesarios se suban al repositorio. Para un proyecto de Arduino, puedes usar algo como esto:
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
+```plaintext
+# Ignorar archivos generados por el IDE de Arduino
+*.elf
+*.hex
+*.eep
+*.bin
+*.lst
+*.lss
+*.sym
+*.map
 *.app
+*.app.dSYM
+*.o
+*.d
+*.a
+*.so
+*.so.dSYM
+*.out
+*.exe
+*.hex
+*.eep
+*.bin
+*.lst
+*.lss
+*.sym
+*.map
+*.app
+*.app.dSYM
+*.o
+*.d
+*.a
+*.so
+*.so.dSYM
+*.out
+*.exe
+
+# Ignorar carpeta de configuración del IDE de Arduino
+/.idea/
