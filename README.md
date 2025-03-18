@@ -19,6 +19,8 @@ Este proyecto implementa un robot que utiliza un sensor de ultrasonidos HC-SR04 
 ## Diagrama de Conexiones
 ![Diagrama de Conexiones](docs/diagrama_conexiones.png)
 
+Para más detalles sobre las conexiones, consulta el archivo [connections.md](docs/connections.md).
+
 ## Instalación
 1. Clona este repositorio:
    ```bash
